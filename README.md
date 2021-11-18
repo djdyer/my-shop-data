@@ -58,9 +58,9 @@ Employing the following technology:
 
 [need badges!]
 
-Express.js
-Sequelize https://www.npmjs.com/package/sequelize
-Dotenv https://www.npmjs.com/package/dotenv
+Express.js  
+Sequelize https://www.npmjs.com/package/sequelize  
+Dotenv https://www.npmjs.com/package/dotenv  
 Insomnia Core
 
 (to store sensitive data, like mysql user name, password, database name)
