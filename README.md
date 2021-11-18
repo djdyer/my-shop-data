@@ -2,9 +2,7 @@
 
 <br />
 
-## Table of Contents
-
-📦
+## Table of Contents 📦
 
 - [Description](#description)
 - [User Story](#user-story)
@@ -17,18 +15,14 @@
 <br />
 <br />
 
-## Description
+## Description 📝
 
-📝
-
-My Shop Data is.
+My Shop Data is an e-Comm back end application used to manage the mySQL database of products in a web shop.
 
 <br />
 <br />
 
-## User Story
-
-🔦
+## User Story 🔦
 
 ```
 AS A manager at an internet retail company
@@ -38,9 +32,7 @@ SO THAT my company can compete with other e-commerce companies
 
 <br />
 
-## Installation
-
-⬇️
+## Installation ⬇️
 
 Must first launch mySQL server with the following commands:
 
@@ -69,6 +61,7 @@ Employing the following technology:
 Express.js
 Sequelize https://www.npmjs.com/package/sequelize
 Dotenv https://www.npmjs.com/package/dotenv
+Insomnia Core
 
 (to store sensitive data, like mysql user name, password, database name)
 
@@ -86,9 +79,7 @@ mySQL2
 <br />
 <br />
 
-## License
-
-🚦
+## License 🚦
 
 Copyright (c) David Dyer [2021]
 
@@ -96,7 +87,7 @@ Copyright (c) David Dyer [2021]
 
 <br />
 
-## Demo
+## Demo 🕹️
 
 Must Demonstrate:
 
@@ -112,8 +103,6 @@ Must Demonstrate:
 
 - POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia Core.
 
-🕹️
-
 [![](assets/demo/...png)](https://youtu.be/...)
 
 <img src="./assets/demo/...png" width = "600">
@@ -122,9 +111,7 @@ Must Demonstrate:
 <br />
 <br />
 
-## Criteria
-
-✅
+## Criteria ✅
 
 ```
 With Express API, this command-line application connects to mySQL database using Sequelize.
@@ -144,9 +131,7 @@ to successfully create, update, and delete data in the database.
 <br />
 <br />
 
-## Collaboration
-
-🔧
+## Collaboration 🔧
 
 Development efforts most often include guidance from Jedi Master:
 **Chris Champness**
@@ -170,6 +155,5 @@ Clone branch, submit pull request for review after completing any improvements.
 <br />
 <br />
 <br />
-Thanks for taking a look!
-  
+Thanks for taking a look! 
 🤓
