@@ -2,11 +2,12 @@
 
 <br />
 
-## Table of Contents 📦
+## Table of Contents
 
 - [Description](#description)
 - [User Story](#user-story)
 - [Installation](#installation)
+- [Testing](#testing)
 - [License](#license)
 - [Demo](#demo)
 - [Criteria](#criteria)
@@ -15,14 +16,14 @@
 <br />
 <br />
 
-## Description 📝
+## Description
 
 My Shop Data is an e-Comm back end application used to manage the mySQL database of products in a web shop.
 
 <br />
 <br />
 
-## User Story 🔦
+## User Story
 
 ```
 AS A manager at an internet retail company
@@ -32,9 +33,9 @@ SO THAT my company can compete with other e-commerce companies
 
 <br />
 
-## Installation ⬇️
+## Installation
 
-Must first launch mySQL server with the following commands:
+Must first launch mySQL server with the following commands: ⬇️
 
 ```
 cd 'db'
@@ -42,6 +43,7 @@ mysql -u root
 source schema.sql
 quit
 ..
+node seeds
 ```
 
 <br />
@@ -49,37 +51,28 @@ quit
 Application will then run in the command-line with:
 
 ```
-node app
+node server
 ```
 
 <br />
 
 Employing the following technology:
 
-[need badges!]
+[<img src="./assets/images/express.svg" height="20px">](https://expressjs.com/en/guide/routing.html#response-methods) [<img src="./assets/images/sequelize.svg" height="20px">](https://www.npmjs.com/package/sequelize) [<img src="./assets/images/mysql.svg" height="20px">](https://www.npmjs.com/package/mysql2) [<img src="./assets/images/dot_env.svg" height="20px">](https://www.npmjs.com/package/dotenv)
 
-Express.js  
-Sequelize https://www.npmjs.com/package/sequelize  
-Dotenv https://www.npmjs.com/package/dotenv  
-Insomnia Core
-
-(to store sensitive data, like mysql user name, password, database name)
-
-[<img src="./assets/images/node.svg" height="20px">](https://nodejs.org/en/docs/)
-
-[<img src="./assets/images/npm.svg" height="20px">](https://www.npmjs.com/)
-
-[<img src="./assets/images/inquirer.svg" height="20px">](https://www.npmjs.com/package/inquirer)
-
-mySQL2
-[<img src="./assets/images/mysql.svg" height="20px">](https://www.npmjs.com/package/mysql2)
-
-[<img src="./assets/images/console.table.svg" height="20px">](https://www.npmjs.com/package/console.table.svg/)
+[<img src="./assets/images/insomnia_core.svg" height="20px">](https://insomnia.rest/products/insomnia) [<img src="./assets/images/node.svg" height="20px">](https://nodejs.org/en/docs/) [<img src="./assets/images/npm.svg" height="20px">](https://www.npmjs.com/)
 
 <br />
 <br />
 
-## License 🚦
+## Testing
+
+[<img src="./assets/images/insomnia.png" height="60px">](https://insomnia.rest/products/insomnia)
+
+<br />
+<br />
+
+## License
 
 Copyright (c) David Dyer [2021]
 
@@ -87,31 +80,19 @@ Copyright (c) David Dyer [2021]
 
 <br />
 
-## Demo 🕹️
+## Demo
 
-Must Demonstrate:
+[![](assets/demo/youtube.png)](https://youtu.be/...)
 
-- how to create the schema from the MySQL shell.
-
-- how to seed the database from the command line.
-
-- how to start the application’s server.
-
-- GET routes for all categories, all products, and all tags being tested in Insomnia Core.
-
-- GET routes for a single category, a single product, and a single tag being tested in Insomnia Core.
-
-- POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia Core.
-
-[![](assets/demo/...png)](https://youtu.be/...)
-
-<img src="./assets/demo/...png" width = "600">
-<img src="./assets/demo/...png" width = "600">
+<img src="./assets/demo/ss1.png" width = "600">
+<img src="./assets/demo/ss2.png" width = "600">
 
 <br />
 <br />
 
-## Criteria ✅
+## Criteria
+
+✅
 
 ```
 With Express API, this command-line application connects to mySQL database using Sequelize.
@@ -131,29 +112,24 @@ to successfully create, update, and delete data in the database.
 <br />
 <br />
 
-## Collaboration 🔧
+## Collaboration
 
-Development efforts most often include guidance from Jedi Master:
+Development efforts most often include guidance from Jedi Master:  
 **Chris Champness**
 
 <a href= "https://github.com/CChampness"><img src=
-"https://avatars.githubusercontent.com/u/87551272?v=4" width="50px"/></a>
-
-Additional collaboration with:
-**Name**
-
-<a href="https://github.com/..."><img src="https://..." width="50px"/></a>
+"https://avatars.githubusercontent.com/u/87551272?v=4" width="60px"/></a>
 
 <br />
 
-**Reporting issues**:
-Contact [djdyer](https://www.github.com/djdyer) to report bugs.
+**Reporting Issues**:
+Please contact [djdyer](https://www.github.com/djdyer) to report any bugs.
 
 **Contributions**:
 Clone branch, submit pull request for review after completing any improvements.
 
 <br />
 <br />
-<br />
-Thanks for taking a look! 
+Thanks for taking a look!
+
 🤓
